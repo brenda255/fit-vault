@@ -17,8 +17,8 @@ function Nav({ isLoggedIn, setIsLoggedIn }) {
                 //these show when NOT logged in
                 <>
                     <Link to="/Login">Login</Link>
+                    <Link to="/Register">Register</Link>
                     <button onClick={() => setIsLoggedIn(true)}>Login</button>
-
                 </>
             )}
 

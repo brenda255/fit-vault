@@ -7,6 +7,7 @@ import Exercises from "./pages/Exercises"
 import Login from "./pages/Login"
 import Profile from "./pages/Profile"
 import Recap from "./pages/Recap"
+import Register from "./pages/Register"
 import { useState } from "react"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Profile' element={<Profile />} />
         <Route path='/Recap' element={<Recap />} />
         <Route path='/Login' element={<Login />} />
+        <Route path='/Register' element={<Register />} />
       </Routes>
     </Router>
   )
